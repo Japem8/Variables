@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b8bcc55-e2dd-4ad7-a6ae-bd0b36313fb4" name="Changes" comment="Creación de nueva clase">
+    <list default="true" id="1b8bcc55-e2dd-4ad7-a6ae-bd0b36313fb4" name="Changes" comment="Añadir .idea a gitignore">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,12 +32,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Ejercicio01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.unisys.ejercicios.Ejercicio01" />
@@ -87,13 +88,20 @@
       <option name="project" value="LOCAL" />
       <updated>1673891310046</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Añadir .idea a gitignore">
+      <created>1673961537146</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673961537146</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Añadir .idea a gitignore" />
     <MESSAGE value="Realización del ejercicio01" />
     <MESSAGE value="Creación de nueva clase" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creación de nueva clase" />
+    <MESSAGE value="Añadir .idea a gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadir .idea a gitignore" />
   </component>
 </project>
