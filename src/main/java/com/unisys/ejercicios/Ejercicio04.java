@@ -9,7 +9,7 @@ public class Ejercicio04 {
         System.out.println("El caracter 4 de saludo es: "+c4);
         System.out.println(saludo.toUpperCase());
         System.out.println(saludo.toLowerCase());
-        System.out.println(saludo.indexOf("l"));
+        System.out.println(saludo.indexOf('l'));
         if (saludo.equals(saludo2)) {
             System.out.println("Las cadenas son iguales");
         }else {
