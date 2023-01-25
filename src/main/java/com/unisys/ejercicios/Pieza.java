@@ -1,6 +1,7 @@
 package com.unisys.ejercicios;
 
 import java.io.Serializable;
+import java.util.Objects;
 
 public class Pieza implements Serializable {
     private String nombre;
@@ -33,5 +34,18 @@ public class Pieza implements Serializable {
     public Pieza(String nombre, String tipoPieza) {
         this.nombre = nombre;
         this.tipoPieza = tipoPieza;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Pieza pieza = (Pieza) o;
+        return getNombre().equals(pieza.getNombre()) && getTipoPieza().equals(pieza.getTipoPieza());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getNombre(), getTipoPieza());
     }
 }
