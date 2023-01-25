@@ -1,15 +1,14 @@
 package com.unisys.ejercicios;
 
 import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-public class Ordenador implements Serializable {
-    private static final long serialVersionUID = 1234567L;
+public class Ordenador2 implements Serializable {
+    private static final long serialVersionUID = 1234568L;
     private String marca;
     private String modelo;
-    private Set <Pieza> misPiezas;
+    private List <Pieza> misPiezasOrdenadas;
 
     public String getMarca() {
         return marca;
@@ -27,24 +26,24 @@ public class Ordenador implements Serializable {
         this.modelo = modelo;
     }
 
-    public Set<Pieza> getListadoDePiezas() {
-        return misPiezas;
+    public List<Pieza> getListadoDePiezas() {
+        return misPiezasOrdenadas;
     }
 
-    public void setListadoDePiezas(Set <Pieza> piezas) {
-        this.misPiezas = piezas;
+    public void setListadoDePiezas(List <Pieza> piezas) {
+        this.misPiezasOrdenadas = piezas;
     }
 
-    public Ordenador(String marca, String modelo, Set <Pieza> piezas) {
+    public Ordenador2(String marca, String modelo, List <Pieza> piezas) {
         this.marca = marca;
         this.modelo = modelo;
-        this.misPiezas = piezas;
+        this.misPiezasOrdenadas = piezas;
     }
 
-    public Ordenador() {
+    public Ordenador2() {
         this.marca = "";
         this.modelo = "";
-        this.misPiezas = null;
+        this.misPiezasOrdenadas = null;
     }
 
     @Override
@@ -52,7 +51,7 @@ public class Ordenador implements Serializable {
         return "Ordenador{" +
                 "marca='" + marca + '\'' +
                 ", modelo='" + modelo + '\'' +
-                ", misPiezas='" + misPiezas + '\'' +
+                ", misPiezas='" + misPiezasOrdenadas + '\'' +
                 '}';
     }
 }
